@@ -1,0 +1,27 @@
+### .properties
+## Server Setting
+#server.port=8080
+#server.servlet.context-path=/
+#server.servlet.encoding.charset=UTF-8
+#
+## View Resolver Setting
+#spring.mvc.view.prefix=/WEB-INF/jblog/
+#spring.mvc.view.suffix=.jsp
+
+
+
+## .yml
+# Server Setting
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+
+# View Resolver Setting
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jblog/
+      suffix: .jsp
